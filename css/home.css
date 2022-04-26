@@ -1,0 +1,167 @@
+/*#ff8dac rosa #16ffbd grön*/
+
+body {
+    background-color: #FFF8F3;
+}
+
+
+.home-background{
+    position: absolute;
+    width: 100vw;
+    z-index: -2;
+}
+
+.homepage-heading{
+    margin: 0vw 6.6vw;
+    width: 80vw;
+    font-size: 16vw ;
+    font-family: 'Bebas Neue';
+}
+
+.homepage-second-heading{
+    margin: 0vw 6.6vw;
+    margin-top: -4vw;
+    width: 80vw;
+    font-size: 16vw ;
+    font-family: 'Bebas Neue';
+}
+
+.play-me-div{
+    height: 4vw;
+    width: 11vw;
+    margin-left: 68vw;
+    margin-top: -4vw;
+}
+
+.play-me-bar{
+    height: 0.3vw;
+    width: 8vw;
+    margin-top: -1.2vw;
+    margin-left: -0.3vw;
+    background-color: #FD5D5D;
+}
+
+.homepage-subheading{
+    margin-top: 15vw;
+    margin-bottom: 2vw;
+    margin-left: 11.5vw;
+    font-size: 3vw;
+}
+
+
+.website-description-div{
+    margin-left: 9.6vw;
+    width: 60.8vw;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: -2vw;
+    font-size: 2.1vw;
+    padding-left: 8px;
+}
+
+.popcorn-div{
+    margin-left: 10.7vw;
+    width: 66.3vw;
+}
+
+.hendrix{
+    width: 32vw;
+    margin-left: 0vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.hendrix-background{
+    z-index: -1;
+    margin-top: -15vw;
+    margin-left: -1vw;;
+    width: 26vw;
+    height: 15vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.hendrix-caption{
+    width: 25vw;
+    margin-top: 1vw;
+    margin-left: 0vw;
+    font-size: 1.2vw;
+}
+
+.disclaimer-div{
+    margin-left: 10.7vw;
+    width: 66.3vw;
+}
+
+.disclaimer-heading{
+    margin-top: 9vw;
+}
+
+.stevie{
+    width: 31.02vw;
+    height: 50.6vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.stevie-background{
+    width: 25.4vw;
+    height: 15.4vw;
+    margin-left: 8vw;
+    margin-top: -15vw;
+    background: rgba(22, 255, 189, .3);
+}
+
+.stevie-caption{
+    margin-top: 1.7vw;
+    margin-left: 9vw;
+    font-size: 1.2vw;
+}
+
+.final-div{
+    margin-top: 25vw;
+    margin-left: 11vw;
+    width: 81vw;
+}
+
+.blues-button{
+    font-size: 2vw;
+    margin-top: 5vw;
+    color: black !important;
+}
+
+.blues-underline{
+    position: relative;
+    left: 3.8vw;
+    top: -0.6vw;
+    width: 25vw;
+    height: 7px;
+    background: #FD5D5D;
+}
+
+.blues-button:hover ~ .blues-underline{
+    position: relative;
+    left: 3.7vw;
+    top: -0.7vw;
+}
+
+.blues-button:hover{
+    position: relative;
+    left: -0.1vw;
+    top: -0.1vw;
+    color: black !important;
+}
+
+
+/*Red navbar line*/
+.current-home{
+    background: #FD5D5D;
+    position: relative;
+    top: -0.7vw;
+    left: 4.6vw;
+    z-index: 1;
+}
+
+.current-home-shadow{
+    position: relative;
+    top: -0.9vw;
+    left: 4.8vw;
+    background: black;
+}

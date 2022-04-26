@@ -1,0 +1,1030 @@
+body {
+    background-color: #FFF8F3;
+}
+
+.seventies-backgound{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+}
+
+.seventies-subheading{
+    font-family: 'Montserrat'; 
+    width: 70vw;
+    font-size: 3vw; 
+}
+
+.current-seventies{
+    background: #FD5D5D;
+    position: relative;
+    top: -0.7vw;
+    left: 4.6vw;
+    z-index: 1;
+}
+
+
+.current-seventies-shadow{
+    position: relative;
+    top: -0.9vw;
+    left: 4.8vw;
+    background: black;
+}
+
+/* Stevie Wonder div */
+
+.stevie-wonder-div{
+    width: 80vw;
+    margin-top: 75vw;
+}
+
+.left-wonder-div{
+    margin-left: -1.5vw;
+}
+
+.stevie-wonder{
+    width: 27vw;
+    margin-left: 3vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.wonder-background{
+    margin-top: -13vw;
+    margin-left: 0vw;
+    width: 29vw;
+    height: 21vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.wonder-caption{
+    margin-top: -6.8vw;
+    margin-left: 3vw;
+    font-size: 1.1vw;
+    width: 27vw;
+}
+
+/* Zeppelin div */
+.zeppelin-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+.left-zeppelin-div{
+    margin-left: -1.5vw;
+}
+
+.jimmy-page{
+    width: 29vw;
+    margin-left: 2vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.page-background{
+    margin-top: -17vw;
+    margin-left: 0vw;
+    width: 31vw;
+    height: 21vw;
+    background: rgba(22, 255, 189, .4);
+}
+
+.page-caption{
+    margin-top: -2.7vw;
+    margin-left: 2vw;
+    font-size: 1.1vw;
+    width: 29vw;
+}
+
+/* Progressive div */
+
+.prog-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+/* Pink Floyd Div */
+
+.floyd-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+
+.pink-floyd{
+    width: 37vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.floyd-background{
+    margin-top: -17vw;
+    margin-left: -1vw;
+    width: 31vw;
+    height: 21vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.floyd-caption{
+    margin-top: -2.9vw;
+    margin-left: 0vw;
+    font-size: 1.1vw;
+    width: 29vw;
+}
+
+/* Wish You Were Here */
+
+.seventies-song1{
+    text-align: center;
+    margin-top: 39vw;
+}
+
+.wish-you-were{
+    font-size: 2vw;
+    margin-top: -20vw;
+}
+
+.david-gilmour{
+    position: absolute;
+    top: 402vw;
+    left: 35vw;
+    width: 10vw;
+    opacity: 0;
+}
+
+.david-cough{
+    opacity: 1; 
+}
+
+.wish-guitar{
+    position: absolute;
+    top: 384.5vw;
+    height: 16vw;
+    width: 100vw;
+    cursor: pointer;
+}
+
+.twelvestring{
+    width: 100vw;
+    position: absolute;
+    top: 335vw;
+}
+
+.ball{
+    position: absolute;
+    z-index: 1;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100%;
+}
+
+.ball1{
+    left: 53.5vw;
+    top: 0.9vw;
+}
+
+.ball2{
+    left: 62.5vw;
+    top: 3.2vw;
+}
+
+.ball3{
+    left: 62.5vw;
+    top: 5.7vw;
+}
+
+.ball4{
+    left: 62.5vw;
+    top: 8.2vw;
+}
+
+.ball5{
+    left: 53.5vw;
+    top: 10.3vw;
+}
+
+.ball6{
+    left: 53.5vw;
+    top: 12.6vw;
+}
+
+/*----------------String styling-------------------*/
+
+.floyd-played{
+    box-shadow: 0px 0 6px 3px #fd5d5d;
+}
+
+.fretted{
+    background: #fd5d5d;
+}
+
+/*-------------------------------------------------*/
+
+.string1{
+    background: #DE8D65;
+    transform: rotate(90.5deg);
+
+    position: absolute;
+    top: 311.15vw;
+    left: 4.3vw;
+
+    width: 3.2px;
+    height: 149.2vw;
+}
+
+.string2{
+    background: #DE8D65;
+    transform: rotate(90.5deg);
+
+    position: absolute;
+    top: 311.75vw;
+    left: 4.3vw;
+
+    width: 3.2px;
+    height: 149.2vw;
+}
+
+.string3{
+    background: #DE8D65;
+    transform: rotate(90.5deg);
+
+    position: absolute;
+    top: 313.25vw;
+    left: 4.3vw;
+
+    width: 3.2px;
+    height: 149.2vw;
+}
+
+.string4{
+    background: #DE8D65;
+    transform: rotate(90.5deg);
+
+    position: absolute;
+    top: 313.85vw;
+    left: 4.3vw;
+
+    width: 3.2px;
+    height: 149.2vw;
+}
+
+.string5{
+    background: #DE8D65;
+    transform: rotate(90deg);
+
+    position: absolute;
+    top: 316.2vw;
+    left: 4.3vw;
+
+    width: 3.2px;
+    height: 149.2vw;
+}
+
+
+.string6{
+    background: #DE8D65;
+    transform: rotate(90deg);
+
+    position: absolute;
+    top: 316.9vw;
+    left: 4.3vw;
+
+    width: 3.2px;
+    height: 149.2vw;
+}
+
+.string7{
+    background: #DE8D65;
+    transform: rotate(89.5deg);
+
+    position: absolute;
+    top: 319.35vw;
+    left: 4.3vw;
+
+    width: 3.2px;
+    height: 149.2vw;
+}
+
+.string8{
+    background: #DE8D65;
+    transform: rotate(89.5deg);
+
+    position: absolute;
+    top: 319.9vw;
+    left: 4.3vw;
+
+    width: 3.2px;
+    height: 149.2vw;
+}
+
+.string9{
+    background: #DE8D65;
+    transform: rotate(89.2deg);
+
+    top: 321.6vw;
+    left: 4.3vw;
+
+    position: absolute;
+    width: 3.2px;
+    height: 149.2vw;
+}
+
+.string10{
+    background: #DE8D65;
+    transform: rotate(89.2deg);
+
+    position: absolute;
+    top: 322.20vw;
+    left: 4.3vw;
+
+    width: 3.2px;
+    height: 149.2vw;
+}
+
+.string11{
+    background: #DE8D65;
+    transform: rotate(89deg);
+
+    position: absolute;
+    top: 323.95vw;
+    left: 4.3vw;
+
+    width: 3.2px;
+    height: 149.2vw;
+}
+
+.string12{
+    background: #DE8D65;
+    transform: rotate(89deg);
+
+    position: absolute;
+    top: 324.65vw;
+    left: 4.3vw;
+
+    width: 3.2px;
+    height: 149.2vw;
+}
+
+.clickme-w{
+    font-weight: 600;
+    margin-left: 75vw;
+    margin-top: -4vw;
+    transform: rotate(-20deg);
+}
+
+.music-note{
+    width: 1.5vw;   
+}
+
+/* Dark Side div */
+
+.dsotm-div{
+    width: 80vw;
+    margin-top: 35vw;
+}
+
+.dsotm-second-row{
+    margin-top: -1vw;
+}
+
+.left-dsotm-div{
+    margin-left: -1.5vw;
+}
+
+.dsotm{
+    width: 26vw;
+    margin-left: 2vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.dsotm-background{
+    margin-top: -16vw;
+    margin-left: 0vw;
+    width: 27vw;
+    height: 21vw;
+    background: rgba(22, 255, 189, .4);
+}
+
+.dsotm-caption{
+    margin-top: -4vw;
+    margin-left: 2vw;
+    font-size: 1.1vw;
+    width: 25vw;
+}
+
+/* Glam Rock div */
+
+.glam-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+.glam-second-row{
+    margin-top: -1vw;
+}
+
+.left-glam-div{
+    margin-left: -1.5vw;
+}
+
+.little_richard{
+    width: 30vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.glam-background{
+    margin-top: -11vw;
+    margin-left: 8vw;
+    width: 24vw;
+    height: 15vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.glam-caption{
+    margin-top: -3.3vw;
+    margin-left: 8.6vw;
+    font-size: 1.1vw;
+    width: 22vw;
+}
+
+/* Elton Jon div */
+
+.elton-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+.elton-second-row{
+    margin-top: -1vw;
+}
+
+.right-elton-div{
+    margin-left: -1.5vw;
+}
+
+.elton-john{
+    width: 31vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.elton-background{
+    margin-top: -10.6vw;
+    margin-left: 8.5vw;
+    width: 24vw;
+    height: 15vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.elton-caption{
+    margin-top: -3.5vw;
+    margin-left: 9.1vw;
+    font-size: 1.1vw;
+    width: 25vw;
+}
+
+/* Queen div */
+
+.queen-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+.left-queen-div{
+    margin-left: -1.5vw;
+}
+
+.freddie-mercury{
+    width: 26vw;
+    margin-left: 2vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.queen-background{
+    margin-top: -18vw;
+    margin-left: 0vw;
+    width: 31vw;
+    height: 21vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.queen-caption{
+    margin-top: -2vw;
+    margin-left: 2vw;
+    font-size: 1.1vw;
+    width: 29vw;
+}
+
+/* Brian May and rest of members div */
+
+.may-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+.left-may-div{
+    margin-left: -1.5vw;
+}
+
+.brian-may{
+    width: 26vw;
+    margin-left: 2vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.may-background{
+    margin-top: -18vw;
+    margin-left: 0vw;
+    width: 31vw;
+    height: 21vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.may-caption{
+    margin-top: -2vw;
+    margin-left: 2vw;
+    font-size: 1.1vw;
+    width: 29vw;
+}
+
+/* Bohemian Rhapsody div */
+.eh-oh{
+    cursor: pointer;
+}
+
+.click-cursor{
+    margin-left: -1vw;
+    width: 3vw;
+    transform: rotate(-40deg);
+}
+
+.bohemian-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+.bohemian-second-row{
+    margin-top: -1vw;
+}
+
+.left-bohemian-div{
+    margin-left: -1.5vw;
+}
+
+.live-aid{
+    width: 36vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.bohemian-background{
+    margin-top: -18vw;
+    margin-left: 7vw;
+    width: 31vw;
+    height: 21vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.bohemian-caption{
+    margin-top: -2vw;
+    margin-left: 8vw;
+    font-size: 1.1vw;
+    width: 29vw;
+}
+
+/* American 70's div */
+.heart{
+    width: 29vw;
+    margin-left: 3vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+
+.america-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+.america-background{
+    margin-top: -17vw;
+    margin-left: 2vw;
+    width: 31vw;
+    height: 21vw;
+    background: rgba(22, 255, 189, .4);
+}
+
+.american-caption{
+    margin-top: -3.5vw;
+    margin-left: 3vw;
+    font-size: 1.1vw;
+    width: 29vw;
+}
+
+/* Fleetwood Mac div */
+.fleetwood-mac{
+    width: 33vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.fleetwood-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+.fleetwood-background{
+    margin-top: -17vw;
+    margin-left: 5vw;
+    width: 31vw;
+    height: 21vw;
+    background: rgba(22, 255, 189, .4);
+}
+
+.fleetwood-caption{
+    margin-top: -3vw;
+    margin-left: 6vw;
+    font-size: 1.1vw;
+    width: 29vw;
+}
+
+/* Aerosmith div */
+.aerosmith{
+    width: 37vw;
+    margin-left: 1vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+
+.aerosmith-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+.aerosmith-background{
+    margin-top: -16vw;
+    width: 31vw;
+    height: 21vw;
+    background: rgba(22, 255, 189, .4);
+}
+
+.aerosmith-caption{
+    margin-top: -4vw;
+    margin-left: 3vw;
+    font-size: 1.1vw;
+    width: 29vw;
+}
+
+/* The Eagles div */
+.hotel-california{
+    width: 34vw;
+    margin-left: 1vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+
+.eagles-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+.eagles-background{
+    margin-top: -17vw;
+    width: 31vw;
+    height: 21vw;
+    background: rgba(22, 255, 189, 0.4);
+}
+
+.eagles-caption{
+    margin-top: -3vw;
+    margin-left: 3vw;
+    font-size: 1.1vw;
+    width: 29vw;
+}
+
+/* Lynyrd Skynyrd div */
+
+.lynyrd-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+.right-lynyrd-div{
+    margin-left: -1.5vw;
+}
+
+.lynyrd-second-row{
+    margin-top: -1vw;
+}
+
+.lynyrd-skynyrd{
+    width: 30vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.lynyrd-background{
+    margin-top: -11.7vw;
+    margin-left: 8vw;
+    width: 24vw;
+    height: 15vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.lynyrd-caption{
+    margin-top: -2.5vw;
+    margin-left: 8.6vw;
+    font-size: 1.05vw;
+    width: 29vw;
+}
+
+/* Honorable Mentions div */
+.honorable-mentions-div{
+    width: 80vw;
+    margin-top: 20vw;
+}
+
+/* Creedence div */
+.creedence-div{
+    margin-top: 5vw;
+    width: 50vw;
+    margin-left: 0vw;
+}
+
+.creedence{
+    width: 20vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.creedence:hover{
+    position: relative;
+    left: -0.2vw;
+    top:-0.2vw;
+    filter: drop-shadow(13px 14px 10px black);
+    cursor: pointer;
+}
+
+.creedence-background{
+    margin-top: 4.7vw;
+    margin-left: -5vw;
+    width: 24vw;
+    height: 8vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.creedence-title{
+    margin-top: -7vw;
+    margin-left: -4vw;
+    font-size: 1.4vw;
+    font-weight: 700;
+    width: 29vw;
+}
+
+.creedence-song{
+    margin-left: -4vw;
+    margin-top: 2vw;
+    font-size: 1.1vw;
+}
+
+/* Journey div */
+.journey-div{
+    margin-top: -2vw;
+    width: 50vw;
+    margin-left: 30vw;
+}
+
+.journey{
+    width: 20vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.journey:hover{
+    position: relative;
+    left: -0.2vw;
+    top:-0.2vw;
+    filter: drop-shadow(13px 14px 10px black);
+    cursor: pointer;
+}
+
+.journey-background{
+    margin-top: 4.7vw;
+    margin-left: 2vw;
+    width: 24vw;
+    height: 8vw;
+    background: rgba(22, 255, 189, 0.4);
+}
+
+.journey-title{
+    margin-top: -7vw;
+    margin-left: 3vw;
+    font-size: 1.4vw;
+    font-weight: 700;
+    width: 29vw;
+}
+
+.journey-song{
+    margin-left: 3vw;
+    margin-top: 2vw;
+    font-size: 1.1vw;
+}
+
+
+/* ZZ-top div */
+.zz-div{
+    margin-top: -2vw;
+    width: 50vw;
+    margin-left: 0;
+}
+
+.zz{
+    width: 20vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.zz:hover{
+    position: relative;
+    left: -0.2vw;
+    top:-0.2vw;
+    filter: drop-shadow(13px 14px 10px black);
+    cursor: pointer;
+}
+
+.zz-background{
+    margin-top: 4.7vw;
+    margin-left: -5vw;
+    width: 24vw;
+    height: 8vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.zz-title{
+    margin-top: -7vw;
+    margin-left: -4vw;
+    font-size: 1.4vw;
+    font-weight: 700;
+    width: 29vw;
+}
+
+.zz-song{
+    margin-left: -4vw;
+    margin-top: 2vw;
+    font-size: 1.1vw;
+}
+
+/* KISS div */
+.kiss-div{
+    margin-top: -2vw;
+    width: 50vw;
+    margin-left: 30vw;
+}
+
+.kiss{
+    width: 20vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.kiss:hover{
+    position: relative;
+    left: -0.2vw;
+    top:-0.2vw;
+    filter: drop-shadow(13px 14px 10px black);
+    cursor: pointer;
+}
+
+.kiss-background{
+    margin-top: 4.7vw;
+    margin-left: 2vw;
+    width: 24vw;
+    height: 8vw;
+    background: rgba(22, 255, 189, 0.4);
+}
+
+.kiss-title{
+    margin-top: -7vw;
+    margin-left: 3vw;
+    font-size: 1.4vw;
+    font-weight: 700;
+    width: 29vw;
+}
+
+.kiss-song{
+    margin-left: 3vw;
+    margin-top: 2vw;
+    font-size: 1.1vw;
+}
+
+/* Blondie div */
+.blondie-div{
+    margin-top: -2vw;
+    width: 50vw;
+    margin-left: 0;
+}
+
+.blondie{
+    width: 20vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.blondie:hover{
+    position: relative;
+    left: -0.2vw;
+    top:-0.2vw;
+    filter: drop-shadow(13px 14px 10px black);
+    cursor: pointer;
+}
+
+.blondie-background{
+    margin-top: 4.7vw;
+    margin-left: -5vw;
+    width: 24vw;
+    height: 8vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.blondie-title{
+    margin-top: -7vw;
+    margin-left: -4vw;
+    font-size: 1.4vw;
+    font-weight: 700;
+    width: 29vw;
+}
+
+.blondie-song{
+    margin-left: -4vw;
+    margin-top: 2vw;
+    font-size: 1.1vw;
+}
+
+/* KISS div */
+.steely-div{
+    margin-top: -2vw;
+    width: 50vw;
+    margin-left: 30vw;
+}
+
+.steely{
+    width: 20vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.steely:hover{
+    position: relative;
+    left: -0.2vw;
+    top:-0.2vw;
+    filter: drop-shadow(13px 14px 10px black);
+    cursor: pointer;
+}
+
+.steely-background{
+    margin-top: 4.7vw;
+    margin-left: 2vw;
+    width: 24vw;
+    height: 8vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.steely-title{
+    margin-top: -7vw;
+    margin-left: 3vw;
+    font-size: 1.4vw;
+    font-weight: 700;
+    width: 29vw;
+}
+
+.steely-song{
+    margin-left: 3vw;
+    margin-top: 2vw;
+    font-size: 1.1vw;
+}
+
+/* Music Div */
+
+.music-div{
+    margin-top: 40vw;
+    width: 50vw;
+    margin-left: 25vw;
+}
+
+.sixties-button{
+    font-size: 1.7vw;
+    width: 50vw;
+    margin-left: 6vw;
+    margin-top: 5vw;
+    color: black !important;
+}
+
+.to-contacts{
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.sixties-underline{
+    margin-left: 16.9vw;
+    margin-top: -1.8vw;
+    width: 28vw;
+    height: 7px;
+    background: #FD5D5D;
+}
+
+.sixties-button:hover ~ .sixties-underline{
+    margin-left: 16.8vw;
+    margin-top: -1.9vw;
+}
+
+.sixties-button:hover{
+    position: relative;
+    left: -0.1vw;
+    top: -0.1vw;
+    color: black !important;
+}

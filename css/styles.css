@@ -1,0 +1,121 @@
+/*Navbar styling*/
+.nav-link{
+    margin: 0 5vw;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.navbar-collapse{
+    justify-content: center;
+    background-color: transparent;
+}
+
+.current-short{
+    width: 6.5vw;
+    height: 5px;
+}
+
+.menu-button{
+    margin-left: 0.5vw;
+}
+
+.current-wide{
+    width: 12vw;
+    height: 5px;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 1.6vw;
+}
+
+
+/*Home and Contacts guitar page styling*/
+
+.fender-logo{
+    position: absolute;
+    left: 87vw;
+    top: 26vw;
+    width: 12vw;
+    transform: rotate(-100deg);
+}
+
+.string{
+    cursor: pointer;
+}
+
+.thin{
+    width: 2.2px !important
+}
+
+.string1{
+    position: absolute;
+    width: 3.2px;
+    height: 149.2vw;
+    left: 78.85vw;
+    top: 34.8vw;
+
+    background: #E7E6E6;
+    transform: rotate(0.45deg);
+}
+
+.string2{
+    position: absolute;
+    width: 3.2px;
+    height: 156.5vw;
+    left: 80.65vw;
+    top: 28vw;
+
+    background: #E7E6E6;
+    /*transform: matrix(-1, -0.01, -0.01, 1, 0, 0);*/
+    transform: rotate(0.35deg);
+}
+
+.string3{
+    position: absolute;
+    width: 3.2px;
+    height: 163.4vw;
+    left: 82.6vw;
+    top: 21.5vw;
+
+    background: #E7E6E6;
+}
+
+.string4{
+    position: absolute;
+    width: 3.2px;
+    height: 170.8vw;
+    left: 85.15vw;
+    top: 14.2vw;
+
+    background: #E7E6E6;
+}
+
+
+.string5{
+    position: absolute;
+    width: 3.2px;
+    height: 177.5vw;
+    left: 87vw;
+    top: 7.4vw;
+
+    background: #E7E6E6;
+    transform: rotate(-0.35deg)
+}
+
+.string6{
+    position: absolute;
+    width: 3.2px;
+    height: 183.5vw;
+    left: 89.45vw;
+    top: 0.5vw;
+
+    background: #E7E6E6;
+    transform: rotate(-0.5deg);
+}
+
+
+.played{
+    box-shadow: 0 3px 4px 0 white;
+}

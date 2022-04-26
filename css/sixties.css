@@ -1,0 +1,524 @@
+body {
+    background-color: #FFF8F3;
+}
+/*The Sixties logo*/
+.sixties-background{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+}
+
+.sixties-subheading{
+    font-family: 'Montserrat'; 
+    width: 70vw;
+    font-size: 3vw; 
+}
+
+.the-logo{
+    position: absolute;
+    left: 17vw;
+    top: 15.61vw;
+    width: 43.65vw;
+    height: 20.56vw;
+}
+
+.current-sixties{
+    background: #FD5D5D;
+    position: relative;
+    top: -0.7vw;
+    left: 4.6vw;
+    z-index: 1;
+}
+
+.current-sixties-shadow{
+    position: relative;
+    top: -0.9vw;
+    left: 4.8vw;
+    background: black;
+}
+
+/*Divs*/
+
+.fall-div{
+    margin-top: 95vw;
+    width: 80vw;
+}
+
+.buddy-holly{
+    width: 35vw;
+    margin-left: 2vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.holly-background{
+    margin-top: -14vw;
+    margin-left: 0vw;
+    width: 31vw;
+    height: 21vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.holly-caption{
+    margin-top: -6.1vw;
+    margin-left: 2vw;
+    font-size: 1.3vw;
+    width: 30vw;
+}
+
+.beatlemania-div{
+    margin-top: 10vw;
+    width: 80vw;
+}
+
+.second-beatlemania-div{
+    margin-top: -1.1vw;
+}
+
+.the-beatles{
+    width: 42vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.beatles-background{
+    margin-top: -16vw;
+    margin-left: 14vw;
+    width: 30vw;
+    height: 21vw;
+    background: rgba(22, 255, 189, .4);
+}
+
+.beatles-caption{
+    margin-top: -4.1vw;
+    margin-left: 15vw;
+    font-size: 1.3vw;
+    width: 30vw;
+}
+
+.stones-div{
+    margin-top: 30vw;
+    width: 80vw;
+}
+
+.mick-jagger{
+    width: 37vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.jagger-background{
+    margin-top: -16vw;
+    margin-left: -1vw;
+    width: 30vw;
+    height: 21vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.jagger-caption{
+    margin-top: -4vw;
+    font-size: 1.3vw;
+    width: 30vw;
+}
+
+.response-div{
+    margin-top: 20vw;
+    width: 80vw;
+}
+
+.second-response-div{
+    margin-top: -2vw;
+    width: 80vw;
+}
+
+.pet-sounds{
+    width: 35vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.pet-background{
+    margin-top: -16vw;
+    margin-left: 8vw;
+    width: 30vw;
+    height: 21vw;
+    background: rgba(22, 255, 189, .4);
+}
+
+.pet-caption{
+    margin-top: -4vw;
+    margin-left: 9vw;
+    font-size: 1.3vw;
+    width: 30vw;
+}
+
+.chosen-div{
+    margin-top: 18vw;
+    width: 80vw;
+}
+
+.hendrix-div{
+    margin-top: 20vw;
+    width: 80vw;   
+}
+
+.jimi-hendrix{
+    width: 34vw;
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.hendrix-background{
+    margin-top: -16vw;
+    margin-left: -1vw;
+    width: 31vw;
+    height: 21vw;
+    background: rgba(253, 93, 93, .4);
+}
+
+.hendrix-caption{
+    margin-top: -4.5vw;
+    font-size: 1.3vw;
+    width: 31vw;
+}
+
+/*Seventies Button*/
+
+.seventies-div{
+    justify-content: center;
+    margin-top: 15vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    .seventies-div{
+        justify-content: center;
+        margin-top: 5vw;
+    }
+  }
+
+.seventies-button{
+    font-size: 3vw;
+    color: black !important;
+}
+
+.seventies-underline{
+    margin-left: 2.4vw;
+    margin-top: -1.8vw;
+    width: 14vw;
+    height: 7px;
+    background: #FD5D5D;
+}
+
+.seventies-button:hover ~ .seventies-underline{
+    margin-top: -1.9vw;
+    margin-left: 3.2vw;
+}
+
+.seventies-button:hover{
+    position: relative;
+    left: -0.2vw;
+    top: -0.2vw;
+    font-family: 'Monoton';
+    color: black !important;
+}
+
+/* Song 1 */
+.sixties-song1{
+    text-align: center;
+    margin-top: 18vw;
+}
+
+.satisfaction-guitar{
+    position: absolute;
+    top: 237.7vw;
+    height: 13vw;
+    width: 100vw;
+    cursor: pointer;
+}
+
+.satisfaction{
+    font-size: 2vw;
+}
+
+.clickme-s{
+    font-weight: 600;
+    margin-left: 89vw;
+    margin-top: -2vw;
+    transform: rotate(-20deg);
+}
+
+.music-note{
+    width: 1.5vw;   
+}
+
+.string1{
+    background: #E7E6E6;
+    transform: matrix(0.01, -1, -1, -0.01, 0, 0);
+    top: 161.8vw;
+    left: 25.2vw;
+}
+.string2{
+    background: #E7E6E6;
+    transform: matrix(0.01, -1, -1, -0.01, 0, 0);
+    top: 159.7vw;
+    left: 21.6vw;
+}
+.string3{
+    transform: matrix(0, -1, -1, 0, 0, 0);
+    top: 158.5vw;
+    left: 18.2vw;
+}
+.string4{
+    transform: matrix(0, -1, -1, 0, 0, 0);
+    top: 157.3vw;
+    left: 14.6vw;
+}
+.string5{
+    transform: matrix(-0.01, -1, 1, -0.01, 0, 0);
+    top: 156.3vw;
+    left: 11.2vw;
+}
+.string6{
+    transform: matrix(-0.01, -1, 1, -0.01, 0, 0);
+    top: 155.7vw;
+    left: 8.2vw;
+}
+
+.playing-ball{
+    position: absolute;
+    z-index: 1;
+    width: 2vw;
+    height: 2vw;
+    left: 75vw;
+    border-radius: 100%;
+}
+
+/* Song2 */
+
+.beatles-singing-div{
+    margin-top: 18vw;
+    width: 80vw;
+}
+
+.clickme-b{
+    font-weight: 600;
+    margin-left: 89vw;
+    margin-top: -4vw;
+    transform: rotate(-20deg);
+}
+
+.beatle-singing{
+    width: 13vw;
+    filter: grayscale(0.9);
+    filter: drop-shadow(4px 4px 3px black);
+}
+
+.sing{
+    width: 15vw;
+    margin-left: -1vw;
+    margin-top: -1vw;
+    filter: grayscale(0);
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.drum{
+    width: 14vw;
+    margin-left: -0.5vw;
+    margin-top: -0.5vw;
+    filter: grayscale(0);
+    filter: drop-shadow(10px 10px 7px black);
+}
+
+.sixties-song2{
+    text-align: center;
+    margin-top: 17vw;
+}
+
+.help-guitar{
+    position: absolute;
+    top: 444.9vw;
+    height: 13vw;
+    width: 100vw;
+    cursor: pointer;
+}
+
+.help{
+    font-size: 2vw;
+}
+
+.music-note{
+    width: 1.5vw;   
+}
+
+.string7{
+    position: absolute;
+    height: 3.2px;
+    width: 100vw;
+
+    background: #E7E6E6;
+    transform: matrix(-1, -0.005, -0.005, 1, 0, 0);
+    top: 446.2vw;
+}
+
+.string8{
+    position: absolute;
+    height: 3.2px;
+    width: 100vw;
+
+    background: #E7E6E6;
+    transform: matrix(-1, -0.005, -0.005, 1, 0, 0);
+    top: 447.9vw;
+}
+
+.string9{
+    position: absolute;
+    height: 3.2px;
+    width: 100vw;
+
+    background: #E7E6E6;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    top: 449.8vw;
+}
+
+.string10{
+    position: absolute;
+    height: 3.2px;
+    width: 100vw;
+
+    background: #E7E6E6;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    top: 452.4vw;
+}
+
+.string11{
+    position: absolute;
+    height: 3.2px;
+    width: 100vw;
+
+    background: #E7E6E6;
+    transform: matrix(-1, 0.005, 0.005, 1, 0, 0);
+    top: 454.2vw;
+}
+
+.string12{
+    position: absolute;
+    height: 3.2px;
+    width: 100vw;
+
+    background: #E7E6E6;
+    transform: matrix(-1, 0.005, 0.005, 1, 0, 0);
+    top: 456.6vw;
+}
+
+.playing-ball2{
+    position: absolute;
+    z-index: 1;
+    width: 2vw;
+    height: 2vw;
+    left: 78vw;
+    top: 2.3vw;
+    border-radius: 100%;
+}
+
+.playing-ball3{
+    position: absolute;
+    z-index: 1;
+    width: 2vw;
+    height: 2vw;
+    left: 78vw;
+    top: 2.3vw;
+    border-radius: 100%;
+}
+/* String animation stylings */
+
+.stones-played{
+    box-shadow: 0 3px 3px 3px #fd5d5d;
+}
+
+.beatles-played{
+    box-shadow: 0px 0 6px 3px #fd5d5d;
+}
+/* Beatles string playing */
+.str2frt2{
+    background: #fd5d5d;
+}
+
+.str2frt4{
+    background: #fd5d5d;
+    top: -0.3vw;
+    left: 56vw
+}
+
+.str2frt5{
+    background: #fd5d5d;
+    top: -0.3vw;
+    left: 47.3vw;
+}
+
+.str2frt2-ball2{
+    background: #fd5d5d;
+}
+
+.str2frt4-ball2{
+    background: #fd5d5d;
+    top: -0.3vw;
+    left: 56vw
+}
+
+.str1frt3-ball2{
+    background: #fd5d5d;
+    top: 0.4vw;
+    left: 68.3vw;
+}
+
+.str1frt2-ball2{
+    background: #fd5d5d;
+    top: 0.4vw;
+    left: 78.1vw;
+}
+
+
+/* String 2 fast playing */
+.str2frt7-ball2{
+    background: #fd5d5d;
+    top: 2.2vw;
+    left: 34.6vw;
+}
+
+.str2frt6-ball2{
+    background: #fd5d5d;
+    top: 2.2vw;
+    left: 42.3vw;
+}
+
+.str2frt5-ball2{
+    background: #fd5d5d;
+    top: 2.2vw;
+    left: 50.3vw;
+}
+
+.str2frt4-ball2{
+    background: #fd5d5d;
+    top: 2.2vw;
+    left: 59.1vw;
+}
+
+/* String 3 fast playing */
+.str3frt5-ball3{
+    background: #fd5d5d;
+    top: 4.1vw;
+    left: 50.1vw;
+}
+
+.str3frt4-ball3{
+    background: #fd5d5d;
+    top: 4.1vw;
+    left: 58.8vw;
+}
+
+.str3frt3-ball3{
+    background: #fd5d5d;
+    top: 4.1vw;
+    left: 68.4vw;
+}
+
+.str3frt2-ball3{
+    background: #fd5d5d;
+    top: 4.1vw;
+    left: 78.1vw;
+}

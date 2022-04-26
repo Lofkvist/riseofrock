@@ -1,0 +1,84 @@
+body {
+    background-color: #FFF8F3;
+}
+
+.contacts-navbar{
+    width: 100vw;
+}
+
+.contacts-background{
+    position: absolute;
+    width: 100vw;
+    z-index: -2;
+}
+
+.string1{
+    height: 22.3vw;
+    left: 79.2vw;
+}
+.string2{   
+    height: 29.1vw;
+    left: 81vw;
+}
+.string3{
+    height: 35.6vw;
+}
+.string4{
+    height: 42.9vw;
+}
+.string5{
+    height: 49.7vw;
+    left: 86.6vw
+}
+.string6{
+    height: 56.7vw;
+    left: 89vw;
+
+}
+.contacts-subheading{
+    font-family: 'Bebas Neue'; 
+    width: 70vw;
+    font-size: 5vw; 
+}
+
+.current-contacts{
+    background: #FD5D5D;
+    position: relative;
+    top: -0.7vw;
+    left: 4.6vw;
+    z-index: 1;
+    width: 11vw;
+    height: 5px;
+}
+
+.current-contacts-shadow{
+    position: relative;
+    background: black;
+    width: 11vw;
+    height: 5px;
+    top: -0.9vw;
+    left: 4.8vw;
+}
+
+.form-div{
+    margin-top: 10vw;
+    margin-left: 9.7vw;
+    width: 58vw;
+}
+
+.submit-button{
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+.footer{
+    width: 100vw;
+    position: fixed;
+    text-align: center;
+    padding-top: 1.4vw;
+    bottom: 0;
+    height: 4vw;
+    font-size: 1.1vw !important;
+    font-family: 'Montserrat';
+    background: rgba(22, 255, 189, 0.4);
+}
